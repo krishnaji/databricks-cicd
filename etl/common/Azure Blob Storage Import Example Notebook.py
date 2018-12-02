@@ -14,9 +14,11 @@
 # MAGIC To get started, we need to set the location and type of the file.
 
 # COMMAND ----------
+
 import os
 storage_account_name = "clinicaltrialsdata"
 storage_account_access_key = os.environ['STORAGE_KEY']
+print("new change")
 
 # COMMAND ----------
 
